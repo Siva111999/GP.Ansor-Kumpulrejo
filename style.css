@@ -1,0 +1,21 @@
+section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #15803d;
+  margin: 8px auto 16px;
+  border-radius: 9999px;
+}
+
+section {
+  transition: background-color 0.5s ease;
+}
+
+section:hover {
+  background-color: #f9fafb;
+}
+
+.shadow-glow {
+  box-shadow: 0 0 20px rgba(21, 128, 61, 0.4);
+}
